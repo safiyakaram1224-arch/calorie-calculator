@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calorie Calculator</title>
+</head>
+<body>
+
+<h2>Calorie Calculator</h2>
+
+<input type="number" id="age" placeholder="Age"><br><br>
+<input type="number" id="weight" placeholder="Weight (kg)"><br><br>
+<input type="number" id="height" placeholder="Height (cm)"><br><br>
+
+<select id="gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select><br><br>
+
+<select id="activity">
+  <option value="1.2">Sedentary</option>
+  <option value="1.375">Light</option>
+  <option value="1.55">Moderate</option>
+  <option value="1.725">Active</option>
+</select><br><br>
+
+<button onclick="calculate()">Calculate</button>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
